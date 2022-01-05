@@ -605,24 +605,54 @@ a:hover {
   text-align: center;
 }
 
+/* line 152, ../sass/main.scss */
+.logo {
+  text-align: center;
+  margin: 35vh auto 0 auto;
+}
+
+@media screen and (min-width: 38em) {
+  /* line 3, ../sass/_queries.scss */
+  .logo {
+    margin: 38vh auto 0 auto;
+  }
+}
+@media screen and (min-width: 42em) {
+  /* line 10, ../sass/_queries.scss */
+  .logo {
+    margin: 40vh auto 0 auto;
+  }
+}
+@media screen and (min-width: 45em) {
+  /* line 17, ../sass/_queries.scss */
+  .logo {
+    margin: 42vh auto 0 auto;
+  }
+}
 @media screen and (min-width: 48em) {
-  /* line 4, ../sass/_queries.scss */
+  /* line 25, ../sass/_queries.scss */
   .nav-menu {
     background: transparent;
   }
 
-  /* line 9, ../sass/_queries.scss */
+  /* line 30, ../sass/_queries.scss */
   .md-pull-down {
     bottom: 0;
   }
 
-  /* line 13, ../sass/_queries.scss */
+  /* line 34, ../sass/_queries.scss */
   .wrapper {
     padding-top: 100vh;
   }
 
-  /* line 17, ../sass/_queries.scss */
+  /* line 38, ../sass/_queries.scss */
   .content {
     padding-top: 2em;
+  }
+
+  /* line 42, ../sass/_queries.scss */
+  .logo {
+    text-align: center;
+    margin: 45vh auto 0 auto;
   }
 }
