@@ -44,7 +44,6 @@ $desktop-break: 81.25em;
 @import 'menu';
 @import 'mp';
 @import 'positioners';
-@import 'queries';
 @import 'text';
 @import 'zs';
 
@@ -149,4 +148,7 @@ a:hover {
     text-align: center;
   }
 }
+
+@import 'queries';
+
 
